@@ -1,0 +1,191 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.chat-container
+{
+    background-image: url(./HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp.jpg);
+    height: 500px;
+    width: 500px;
+    margin: auto;
+}
+.chatbox{
+height: 90%;
+overflow: auto;
+}
+.left
+{
+   background-color: aliceblue; 
+   float: left;
+   max-width: 300px;
+
+   min-width: 150px;
+}
+.right
+{
+background-color: beige;
+float: right;
+max-width: 300px;
+
+min-width: 150px;
+}
+.chat{
+    clear: both;
+
+border-radius: 10px;
+margin: 5px;
+padding:10px;
+}
+.chat-name{
+font-weight: bold;
+}
+/* .chat-text
+{
+
+} */
+#chatinput
+{
+width: 90%;
+outline: none;
+border:none;
+
+border-radius: 10px;
+height: 100%;
+
+}
+
+.chatinput
+{
+    background-color: white;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    height: 6%;
+    align-items: center;
+    justify-content: space-around;
+}
+.hide
+{
+    display: none;
+}
+.join
+{
+    color: white;
+    text-align: center;
+    background-color: green;
+}
+.leave
+{
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #login
+  {
+      background-color: green;
+      color: white;
+      height: 40px;
+  }
+  #loginname
+  {
+      height: 40px;
+      width: 600px;
+
+  }
+  

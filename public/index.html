@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> 
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chatbox hide" >
+            <!-- <div class="chat left">
+                <div class="chat-name">steve</div>
+                <div class="chat-text">hi</div>
+            </div>
+            <div class="chat join">steve:left the chat</div>
+            <div class="chat right">
+                <div class="chat-name">sher</div>
+                <div class="chat-text">how are you?</div>
+            </div>
+          <div class="chat leave">steve Join the chat</div> -->
+
+        </div>
+        <div class="chatinput hide">
+            <input type="text" id="chatinput"/>
+            <div class="send"><i id ="send"class="fas fa-paper-plane"></i></div>
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <input type="text" id="loginname"/>
+          <button id="login">Enter chat room</button>
+        </div>
+      
+      </div>
+</body>
+<script src="https://cdn.socket.io/4.3.2/socket.io.min.js" integrity="sha384-KAZ4DtjNhLChOB/hxXuKqhMLYvx3b5MlT55xPEiNmREKRzeEm+RVPlTnAn0ajQNs" crossorigin="anonymous"></script>
+<script>
+    const socket=io.connect("http://localhost:3000");
+</script>
+<script src="script.js"></script>
+<script src="modal.js"></script>
+<script src="socket.js"></script>
+</html>
